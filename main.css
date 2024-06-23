@@ -171,20 +171,20 @@ header nav a {
     background-color: #0D0E30;
     border-radius: 30px;
     padding: 20px;
-    flex-wrap: wrap; /* Agrega flex-wrap para que los elementos se ajusten en pantallas pequeñas */
+    flex-wrap: wrap;
   }
   
   .left-heart,
   .right-heart {
-    width: 100%; /* Ajusta el ancho a 100% */
-    max-width: 330px; /* Tamaño máximo */
-    min-width: 150px; /* Tamaño mínimo */
-    height: auto; /* Ajusta la altura automáticamente */
+    width: 100%; 
+    max-width: 330px;
+    min-width: 150px; 
+    height: auto; 
   }
   
   .left-heart {
     position: absolute;
-    left: -117px; /* Ajusta este valor según sea necesario */
+    left: -117px; 
     top: 50%;
     transform: translateY(-50%);
   }
@@ -197,11 +197,11 @@ header nav a {
   }
   
   .description-image {
-    margin-left: -30%; /* Ajusta la posición relativa */
+    margin-left: -30%; 
     width: 100%;
-    max-width: 387px; /* Tamaño máximo */
-    min-width: 150px; /* Tamaño mínimo */
-    height: auto; /* Ajusta la altura automáticamente */
+    max-width: 387px; 
+    min-width: 150px; 
+    height: auto; 
   }
   
   #inicio .description-text {
@@ -209,10 +209,10 @@ header nav a {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%; /* Ajusta el ancho a 100% */
-    max-width: 300px; /* Tamaño máximo */
-    min-width: 150px; /* Tamaño mínimo */
-    height: auto; /* Ajusta la altura automáticamente */
+    width: 100%; 
+    max-width: 300px; 
+    min-width: 150px;
+    height: auto; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,28 +222,28 @@ header nav a {
   /* Media queries para ajustar el diseño en pantallas pequeñas */
   @media (max-width: 768px) {
     .description {
-      flex-direction: column; /* Cambia la dirección del flex a columna */
-      padding: 20px; /* Ajusta el padding */
+      flex-direction: column; 
+      padding: 20px; 
     }
   
     .left-heart,
     .right-heart {
-      position: static; /* Cambia la posición a estática */
-      transform: none; /* Elimina la transformación */
-      margin: 10px 0; /* Ajusta los márgenes */
+      position: static; 
+      transform: none; 
+      margin: 10px 0; 
     }
   
     .description-image {
-      margin: 0 auto; /* Centra la imagen */
-      padding: 10px 0; /* Ajusta el padding */
+      margin: 0 auto; 
+      padding: 10px 0; 
     }
   
     #inicio .description-text {
-      position: static; /* Cambia la posición a estática */
-      transform: none; /* Elimina la transformación */
-      width: 90%; /* Ajusta el ancho */
-      max-width: none; /* Elimina el tamaño máximo */
-      margin: 10px auto; /* Ajusta los márgenes */
+      position: static; 
+      transform: none; 
+      width: 90%; 
+      max-width: none; 
+      margin: 10px auto;
     }
   }
   
@@ -412,7 +412,4 @@ header nav a {
   section:in-viewport {
     animation-delay: 0.3s; /* Retraso para que la animación no comience inmediatamente */
   }
-  
-  
-  
   
